@@ -1,0 +1,77 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
+  .container{max-width: 1200px;
+             border: 1px solid red;}
+ 
+  .header-hero{max-width: 1200px;
+    border: 1px solid red;}
+    #header{max-width: 800px;
+        border: 1px solid red;
+         margin: 0 auto;}
+    .hero{max-width: 600px;
+        border: 1px solid red;
+        margin: 0 auto;}
+/*PLACE*/
+.place {max-width: 1200px;
+    border: 1px solid red;
+     display: flex;
+      justify-content: center;}
+    .left-place{  border: 1px solid red; 
+                  width:52%;
+                }
+     .right-place{  border: 1px solid red;
+       width: 15%;}
+
+       /*MEET*/
+       .meet {max-width: 1200px;
+        border: 1px solid red;
+         display: flex;
+          justify-content: center;}
+        .left-meet{  border: 1px solid red; 
+                      width: 15%;}
+         .right-meet{  border: 1px solid red;
+           width: 52%;}
+            /*community*/
+            .community {max-width: 1200px;
+                border: 1px solid red;
+                 display: flex;
+                  justify-content: center;}
+                .left-community{  border: 1px solid red; 
+                              width: 52%;}
+                 .right-community{  border: 1px solid red;
+                   width: 15%;}
+                   /*tecnology*/
+                   .tecnology{
+                    width: 100%;
+                    border: 1px solid red;
+                display: flex;
+                flex-direction: column;
+                margin: 0 auto;}
+                   .tec-img{border: 1px solid rgb(253, 0, 0);
+                    width: 67%;
+                    margin: 0 auto;
+                         }
+                    .tec-parag{border: 1px solid rgb(248, 0, 0);
+                        width: 67%;
+                        margin: 0 auto; 
+                       }
+                       /*footer*/
+                       .footer{
+                        width: 100%;
+                        border: 1px solid red;
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0 auto;}
+                       .footer-top{border: 1px solid rgb(253, 0, 0);
+                        width: 67%;
+                        margin: 0 auto;
+                             }
+                        .footer-bottom{border: 1px solid rgb(248, 0, 0);
+                            width: 67%;
+                            margin: 0 auto; 
+                           }
+            
+           
+                  
