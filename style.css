@@ -12,15 +12,34 @@
  /*HEAD-HERO*/
   .header-hero{max-width: 1200px;
     border: 1px solid red; 
-     }
+    background-color: rgb(0, 0, 0);
+    background-image: url(./img/jumbo.png); 
+    background-size:1200px 180px;}
      
     #header{max-width: 800px;
         border: 1px solid red;
-         margin: 0 auto;}
+         margin: 0 auto;
+         display: flex;}
+        .liste-head{display:flex;
+            margin: 20px 100px;
+             list-style-type: none;
+             }
+             .liste1{ padding-right: 20px;
+            color: white;}
     .hero{max-width: 600px;
         border: 1px solid red;
-        margin: 0 auto;}
-/*PLACE*/
+        margin: 0 auto;
+       text-align: center;
+       color: white;
+      }
+      .title1{background-color: white;
+          border-radius: 30px;
+           padding: 5px ;}
+       .title2{background-color: black;
+        border-radius: 30px;
+        padding: 5px ;}
+
+           /*PLACE*/
     .place {max-width: 1200px;
     border: 1px solid red;
      display: flex;
@@ -59,9 +78,9 @@
                     border: 1px solid red;
                 display: flex;
                 flex-direction: column;
-                margin: 0 auto;
-               }
-                   .tec-img{border: 1px solid rgb(253, 0, 0);
+                margin: 0 auto; }
+         
+                .tec-img{border: 1px solid rgb(253, 0, 0);
                     width: 67%;
                     margin: 0 auto;
                      display: flex;
