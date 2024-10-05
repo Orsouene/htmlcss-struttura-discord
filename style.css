@@ -11,7 +11,9 @@
              border: 1px solid red;}
  /*HEAD-HERO*/
   .header-hero{max-width: 1200px;
-    border: 1px solid red;}
+    border: 1px solid red; 
+     }
+     
     #header{max-width: 800px;
         border: 1px solid red;
          margin: 0 auto;}
@@ -26,6 +28,7 @@
     .left-place{  border: 1px solid red; 
                   width:52%;
                 }
+                .img-item1{ width:500px;}
      .right-place{  border: 1px solid red;
        width: 15%;}
 
@@ -38,6 +41,7 @@
                       width: 15%;}
          .right-meet{  border: 1px solid red;
            width: 52%;}
+           .img-item2{ width:600px;}
 /*community*/
             .community {max-width: 1200px;
                 border: 1px solid red;
@@ -46,23 +50,43 @@
                 .left-community{  border: 1px solid red; 
                               width: 52%;}
                  .right-community{  border: 1px solid red;
-                   width: 15%;}
+                   width: 15%; 
+                   }
+                        
 /*tecnology*/
                    .tecnology{
                     width: 100%;
                     border: 1px solid red;
                 display: flex;
                 flex-direction: column;
-                margin: 0 auto;}
+                margin: 0 auto;
+               }
                    .tec-img{border: 1px solid rgb(253, 0, 0);
                     width: 67%;
                     margin: 0 auto;
-                         }
-                    .tec-parag{border: 1px solid rgb(248, 0, 0);
+                     display: flex;
+                      flex-direction: column;
+                      align-items: center; 
+                     
+                      
+                     }
+                      .p-item4{text-align: center;}
+                     .item4{height: 50%;
+                      width: 90%;
+                           }
+                    
+                           .tec-parag{border: 1px solid rgb(248, 0, 0);
                         width: 67%;
                         margin: 0 auto; 
-                       }
-/*footer*/
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center; 
+                        padding: 30px; }
+                        .img-stars{background-image: url(./img/stars.svg);
+                        padding: 20px;}
+
+
+ /*footer*/
                        .footer{ background-color: rgb(35, 39, 42);
                         width: 100%;
                         border: 1px solid red;
