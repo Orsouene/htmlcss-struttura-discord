@@ -1,10 +1,19 @@
 *{margin: 0;
   padding: 0;
   box-sizing: border-box;}
+  :root 
+    /* font:Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif; */
+ { font-family: Whitney,"Helvetica Neue",Helvetica,Arial,sans-serif;
+ font-size: 1em;}
  
-  
-
-
+ /*GENERAL*/
+ h1 { font-size: 1.3em;
+   }
+   .p-item{padding-top: 10px;}
+ .button{ background-color: rgb(71, 87, 143) ;
+  border-radius: 30px;
+ padding: 5px; 
+ }   
 
 
  .container{max-width: 1200px;
@@ -14,31 +23,44 @@
     border: 1px solid red; 
     background-color: rgb(0, 0, 0);
     background-image: url(./img/jumbo.png); 
-    background-size:1200px 180px;}
-     
+    background-size:1200px 280px;
+    }
+     /*HEAD*/
     #header{max-width: 800px;
         border: 1px solid red;
          margin: 0 auto;
-         display: flex;}
+         display: flex;
+         align-items: center;
+         padding-bottom: 30px;}
         .liste-head{display:flex;
-            margin: 20px 100px;
+            margin: 20px 70px;
              list-style-type: none;
              }
-             .liste1{ padding-right: 20px;
-            color: white;}
+             .liste1{ padding-left: 20px;
+            color: white;
+            }
+            .accedi-button{border-radius: 30px;
+            background-color: white;
+           margin: 0 auto;
+           padding: 10px;}
+
+    /*HERO*/
     .hero{max-width: 600px;
         border: 1px solid red;
         margin: 0 auto;
        text-align: center;
        color: white;
+       padding-bottom: 30px;
       }
-      .title1{background-color: white;
+      .button-title1{background-color: white;
           border-radius: 30px;
-           padding: 5px ;}
-       .title2{background-color: black;
+           padding: 10px ;
+           }
+       .button-title2{background-color: black;
         border-radius: 30px;
-        padding: 5px ;}
-
+        padding: 10px ;
+        }
+        .p-hero{margin: 20px 0px;}
            /*PLACE*/
     .place {max-width: 1200px;
     border: 1px solid red;
@@ -89,10 +111,12 @@
                      
                       
                      }
-                      .p-item4{text-align: center;}
-                     .item4{height: 50%;
+                      .p-item4{text-align: center;
+                        }
+                     
+                      .item4{height: 50%;
                       width: 90%;
-                           }
+                          }
                     
                            .tec-parag{border: 1px solid rgb(248, 0, 0);
                         width: 67%;
@@ -102,8 +126,11 @@
                         align-items: center; 
                         padding: 30px; }
                         .img-stars{background-image: url(./img/stars.svg);
-                        padding: 20px;}
-
+                        padding: 10px 67px;}
+                        .tec-button{padding: 15px;
+                         }
+                       
+                        
 
  /*footer*/
                        .footer{ background-color: rgb(35, 39, 42);
@@ -112,15 +139,17 @@
                     display: flex;
                     flex-direction: column;
                     margin: 0 auto;}
-                    span{color: white;}
+                         span{color: white;
+                          font-size: 0.9em;}
  /*TOP-fOOTER*/   
                     .footer-top{border: 1px solid rgb(253, 0, 0);
                         width: 67%;
                         margin: 0 auto;
                       padding-top: 20px;}
                          
-                    .color-li,  .footer-p{ color: rgb(71, 87, 143);}
-                      .it{font-size: 0.5em;}
+                    .color-li, .footer-p{ color: rgb(71, 87, 143);}
+                      .it{font-size: 0.5em;
+                       }
                               
                      .img-it{height: 10px ;
                                 width: 10px;} 
@@ -151,6 +180,4 @@
                            justify-content: space-between;}
                           
                             
-                             .button{ background-color: rgb(71, 87, 143) ;
-                             border-radius: 20px;
-                            }
+                            
