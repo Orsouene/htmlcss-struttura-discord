@@ -8,12 +8,28 @@
  
  /*GENERAL*/
  h1 { font-size: 1.3em;
-   }
+   padding-top: 10px;}
    .p-item{padding-top: 10px;}
  .button{ background-color: rgb(71, 87, 143) ;
   border-radius: 30px;
  padding: 5px; 
- }   
+ }  
+ 
+ .wave{background-image: url(./img/wave.svg);
+  width: 100%;
+ color: white;
+ opacity: 0.1;
+ height: 50px;
+}
+.wave-rov{background-image: url(./img/wave.svg);
+  width: 100%;
+ color: white;
+ opacity: 0.1;
+ transform: scaleY(-1);
+ height: 50px;
+
+}                                                  
+                  
 
 
  .container{max-width: 1200px;
@@ -74,7 +90,8 @@
        width: 15%;}
 
 /*MEET*/
-       .meet {max-width: 1200px;
+       .meet {background-color: #E5E5E5;
+        max-width: 1200px;
         border: 1px solid red;
          display: flex;
           justify-content: center;}
@@ -95,7 +112,7 @@
                    }
                         
 /*tecnology*/
-                   .tecnology{
+                   .tecnology{background-color: #E5E5E5;
                     width: 100%;
                     border: 1px solid red;
                 display: flex;
@@ -178,6 +195,7 @@
                             margin: 0 auto; 
                             display: flex;
                            justify-content: space-between;}
-                          
-                            
+
+                               
+        
                             
